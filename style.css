@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.container{
+    display: inline-flex;
+}
+
+.left-side{
+    height: 696px;
+    width: 50%;
+    margin-left: 12px;
+}
+
+.right-side{
+    height: 696px;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+}
+
+.facebook{
+    width: 75px;
+}
+
+.right-img{
+    width: 658px;
+}
+
+.welcome{
+    margin-left: 13px;
+    margin-top: 45px;
+}
+
+.inputs{
+    display: flex;
+    margin-bottom: 10px;
+    height: 41px;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 35px;
+    padding-left: 17px;
+}
+
+.welc{
+    margin-left: 16px;
+    margin-top: 32px;
+}
+
+.welcc{
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    margin-left: -92px;
+    margin-bottom: 44px;
+}
+
+.google-facebook{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-i{
+    display: flex;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: -74px;
+    margin-bottom: 20px;
+    width: 362px;
+}
+
+.gf-text{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.google{
+    width: 40px;
+    margin-left: 18px;
+}
+
+.facebook-i{
+    display: flex;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: -74px;
+    width: 362px;
+}
+
+.google-i:hover{
+    cursor: pointer;
+    background: rgb(207, 207, 207);
+}
+
+.facebook-i:hover{
+    cursor: pointer;
+    background: rgb(207, 207, 207);
+}
+
+.sing-up p{
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+.sing-up a{
+    margin-top: 5px;
+    margin-left: 17px;
+}
+
+.next{
+    display: grid;
+    height: 43px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 31px;
+    background: #005689;
+    color: white;
+    border: none;
+    width: 378px;
+    margin-left: 96px;
+}
+
+.next:hover{
+    cursor: pointer;
+    background: #001f31;
+}
